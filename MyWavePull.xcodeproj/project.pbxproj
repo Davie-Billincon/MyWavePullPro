@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88036DDD1CAC1E3C0075359E /* 贝塞尔2.24研究笔记.png in Resources */ = {isa = PBXBuildFile; fileRef = 88036DDC1CAC1E3C0075359E /* 贝塞尔2.24研究笔记.png */; };
+		881B85F71CA50BD0006BC4DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B85F61CA50BD0006BC4DA /* main.m */; };
+		881B85FA1CA50BD0006BC4DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B85F91CA50BD0006BC4DA /* AppDelegate.m */; };
+		881B85FD1CA50BD0006BC4DA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B85FC1CA50BD0006BC4DA /* FirstViewController.m */; };
+		881B86001CA50BD0006BC4DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B85FF1CA50BD0006BC4DA /* SecondViewController.m */; };
+		881B86031CA50BD0006BC4DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881B86011CA50BD0006BC4DA /* Main.storyboard */; };
+		881B86051CA50BD0006BC4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881B86041CA50BD0006BC4DA /* Assets.xcassets */; };
+		881B86081CA50BD0006BC4DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881B86061CA50BD0006BC4DA /* LaunchScreen.storyboard */; };
+		881B86131CA50BD0006BC4DA /* MyWavePullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B86121CA50BD0006BC4DA /* MyWavePullTests.m */; };
+		881B861E1CA50BD0006BC4DA /* MyWavePullUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B861D1CA50BD0006BC4DA /* MyWavePullUITests.m */; };
+		881B86311CA50D98006BC4DA /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B862E1CA50D98006BC4DA /* ThirdViewController.m */; };
+		881B86321CA50D98006BC4DA /* ThirdNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B86301CA50D98006BC4DA /* ThirdNavigation.m */; };
+		8881C1C61CA8244000B6C6E3 /* FourNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8881C1C31CA8244000B6C6E3 /* FourNavigation.m */; };
+		8881C1C71CA8244000B6C6E3 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8881C1C51CA8244000B6C6E3 /* FourViewController.m */; };
+		88927CF51CA5899C00058214 /* UIViewToolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88927CF41CA5899C00058214 /* UIViewToolExtension.m */; };
+		88B9FC3D1CB0E9530060EB71 /* NBCircleActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B9FC381CB0E9530060EB71 /* NBCircleActivityView.m */; };
+		88B9FC3E1CB0E9530060EB71 /* NBWaveCurveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B9FC3A1CB0E9530060EB71 /* NBWaveCurveLayer.m */; };
+		88B9FC3F1CB0E9530060EB71 /* NBWaveRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B9FC3C1CB0E9530060EB71 /* NBWaveRefreshView.m */; };
+		88D108501CACCBD70054FD02 /* 需求分析 in Resources */ = {isa = PBXBuildFile; fileRef = 88D1084F1CACCBD70054FD02 /* 需求分析 */; };
+		88D108531CAD12560054FD02 /* NBWaveCurveLayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D108521CAD12560054FD02 /* NBWaveCurveLayerTest.m */; };
+		88D108551CAD711A0054FD02 /* NBCircleActivityViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D108541CAD711A0054FD02 /* NBCircleActivityViewTest.m */; };
+		88D108591CAD72CC0054FD02 /* NBWaveRefreshViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D108581CAD72CC0054FD02 /* NBWaveRefreshViewTest.m */; };
+		88FDFE231CAFDA7600B6E899 /* Spring.c in Sources */ = {isa = PBXBuildFile; fileRef = 88FDFE221CAFDA7600B6E899 /* Spring.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881B860F1CA50BD0006BC4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881B85EA1CA50BD0006BC4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881B85F11CA50BD0006BC4DA;
+			remoteInfo = MyWavePull;
+		};
+		881B861A1CA50BD0006BC4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881B85EA1CA50BD0006BC4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881B85F11CA50BD0006BC4DA;
+			remoteInfo = MyWavePull;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88036DDC1CAC1E3C0075359E /* 贝塞尔2.24研究笔记.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贝塞尔2.24研究笔记.png"; sourceTree = "<group>"; };
+		881B85F21CA50BD0006BC4DA /* MyWavePull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWavePull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881B85F61CA50BD0006BC4DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		881B85F81CA50BD0006BC4DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		881B85F91CA50BD0006BC4DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		881B85FB1CA50BD0006BC4DA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		881B85FC1CA50BD0006BC4DA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		881B85FE1CA50BD0006BC4DA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		881B85FF1CA50BD0006BC4DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		881B86021CA50BD0006BC4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881B86041CA50BD0006BC4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881B86071CA50BD0006BC4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		881B86091CA50BD0006BC4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881B860E1CA50BD0006BC4DA /* MyWavePullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWavePullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881B86121CA50BD0006BC4DA /* MyWavePullTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWavePullTests.m; sourceTree = "<group>"; };
+		881B86141CA50BD0006BC4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881B86191CA50BD0006BC4DA /* MyWavePullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWavePullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881B861D1CA50BD0006BC4DA /* MyWavePullUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWavePullUITests.m; sourceTree = "<group>"; };
+		881B861F1CA50BD0006BC4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881B862D1CA50D98006BC4DA /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		881B862E1CA50D98006BC4DA /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		881B862F1CA50D98006BC4DA /* ThirdNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdNavigation.h; sourceTree = "<group>"; };
+		881B86301CA50D98006BC4DA /* ThirdNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdNavigation.m; sourceTree = "<group>"; };
+		8881C1C21CA8244000B6C6E3 /* FourNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourNavigation.h; sourceTree = "<group>"; };
+		8881C1C31CA8244000B6C6E3 /* FourNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourNavigation.m; sourceTree = "<group>"; };
+		8881C1C41CA8244000B6C6E3 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		8881C1C51CA8244000B6C6E3 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		88927CF31CA5898D00058214 /* UIViewToolExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewToolExtension.h; sourceTree = "<group>"; };
+		88927CF41CA5899C00058214 /* UIViewToolExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewToolExtension.m; sourceTree = "<group>"; };
+		88B9FC361CB0E9530060EB71 /* NBActivityViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBActivityViewProtocol.h; path = NBWaveRefreshPlugIn/NBActivityViewProtocol.h; sourceTree = "<group>"; };
+		88B9FC371CB0E9530060EB71 /* NBCircleActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBCircleActivityView.h; path = NBWaveRefreshPlugIn/NBCircleActivityView.h; sourceTree = "<group>"; };
+		88B9FC381CB0E9530060EB71 /* NBCircleActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NBCircleActivityView.m; path = NBWaveRefreshPlugIn/NBCircleActivityView.m; sourceTree = "<group>"; };
+		88B9FC391CB0E9530060EB71 /* NBWaveCurveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBWaveCurveLayer.h; path = NBWaveRefreshPlugIn/NBWaveCurveLayer.h; sourceTree = "<group>"; };
+		88B9FC3A1CB0E9530060EB71 /* NBWaveCurveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NBWaveCurveLayer.m; path = NBWaveRefreshPlugIn/NBWaveCurveLayer.m; sourceTree = "<group>"; };
+		88B9FC3B1CB0E9530060EB71 /* NBWaveRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NBWaveRefreshView.h; path = NBWaveRefreshPlugIn/NBWaveRefreshView.h; sourceTree = "<group>"; };
+		88B9FC3C1CB0E9530060EB71 /* NBWaveRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NBWaveRefreshView.m; path = NBWaveRefreshPlugIn/NBWaveRefreshView.m; sourceTree = "<group>"; };
+		88D1084F1CACCBD70054FD02 /* 需求分析 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "需求分析"; sourceTree = "<group>"; };
+		88D108511CAD12320054FD02 /* NBWaveCurveLayerTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBWaveCurveLayerTest.h; sourceTree = "<group>"; };
+		88D108521CAD12560054FD02 /* NBWaveCurveLayerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBWaveCurveLayerTest.m; sourceTree = "<group>"; };
+		88D108541CAD711A0054FD02 /* NBCircleActivityViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCircleActivityViewTest.m; sourceTree = "<group>"; };
+		88D108561CAD71260054FD02 /* NBCircleActivityViewTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBCircleActivityViewTest.h; sourceTree = "<group>"; };
+		88D108571CAD72B80054FD02 /* NBWaveRefreshViewTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBWaveRefreshViewTest.h; sourceTree = "<group>"; };
+		88D108581CAD72CC0054FD02 /* NBWaveRefreshViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBWaveRefreshViewTest.m; sourceTree = "<group>"; };
+		88D1085A1CAE36460054FD02 /* NBActivityViewProtocolTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBActivityViewProtocolTest.h; sourceTree = "<group>"; };
+		88FDFE221CAFDA7600B6E899 /* Spring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Spring.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881B85EF1CA50BD0006BC4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881B860B1CA50BD0006BC4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881B86161CA50BD0006BC4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881B85E91CA50BD0006BC4DA = {
+			isa = PBXGroup;
+			children = (
+				881B85F41CA50BD0006BC4DA /* MyWavePull */,
+				881B86111CA50BD0006BC4DA /* MyWavePullTests */,
+				881B861C1CA50BD0006BC4DA /* MyWavePullUITests */,
+				881B85F31CA50BD0006BC4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881B85F31CA50BD0006BC4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881B85F21CA50BD0006BC4DA /* MyWavePull.app */,
+				881B860E1CA50BD0006BC4DA /* MyWavePullTests.xctest */,
+				881B86191CA50BD0006BC4DA /* MyWavePullUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881B85F41CA50BD0006BC4DA /* MyWavePull */ = {
+			isa = PBXGroup;
+			children = (
+				88B9FC351CB0E92D0060EB71 /* NBWaveRefreshPlugIn */,
+				88D1084E1CACB0B50054FD02 /* NBWaveRefreshPlugInTest */,
+				88927CF31CA5898D00058214 /* UIViewToolExtension.h */,
+				88927CF41CA5899C00058214 /* UIViewToolExtension.m */,
+				881B862F1CA50D98006BC4DA /* ThirdNavigation.h */,
+				881B86301CA50D98006BC4DA /* ThirdNavigation.m */,
+				8881C1C21CA8244000B6C6E3 /* FourNavigation.h */,
+				8881C1C31CA8244000B6C6E3 /* FourNavigation.m */,
+				881B85F81CA50BD0006BC4DA /* AppDelegate.h */,
+				881B85F91CA50BD0006BC4DA /* AppDelegate.m */,
+				881B85FB1CA50BD0006BC4DA /* FirstViewController.h */,
+				881B85FC1CA50BD0006BC4DA /* FirstViewController.m */,
+				881B85FE1CA50BD0006BC4DA /* SecondViewController.h */,
+				881B85FF1CA50BD0006BC4DA /* SecondViewController.m */,
+				881B862D1CA50D98006BC4DA /* ThirdViewController.h */,
+				881B862E1CA50D98006BC4DA /* ThirdViewController.m */,
+				8881C1C41CA8244000B6C6E3 /* FourViewController.h */,
+				8881C1C51CA8244000B6C6E3 /* FourViewController.m */,
+				881B86011CA50BD0006BC4DA /* Main.storyboard */,
+				881B86041CA50BD0006BC4DA /* Assets.xcassets */,
+				881B86061CA50BD0006BC4DA /* LaunchScreen.storyboard */,
+				881B86091CA50BD0006BC4DA /* Info.plist */,
+				881B85F51CA50BD0006BC4DA /* Supporting Files */,
+			);
+			path = MyWavePull;
+			sourceTree = "<group>";
+		};
+		881B85F51CA50BD0006BC4DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				881B85F61CA50BD0006BC4DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		881B86111CA50BD0006BC4DA /* MyWavePullTests */ = {
+			isa = PBXGroup;
+			children = (
+				881B86121CA50BD0006BC4DA /* MyWavePullTests.m */,
+				881B86141CA50BD0006BC4DA /* Info.plist */,
+			);
+			path = MyWavePullTests;
+			sourceTree = "<group>";
+		};
+		881B861C1CA50BD0006BC4DA /* MyWavePullUITests */ = {
+			isa = PBXGroup;
+			children = (
+				881B861D1CA50BD0006BC4DA /* MyWavePullUITests.m */,
+				881B861F1CA50BD0006BC4DA /* Info.plist */,
+			);
+			path = MyWavePullUITests;
+			sourceTree = "<group>";
+		};
+		88B9FC351CB0E92D0060EB71 /* NBWaveRefreshPlugIn */ = {
+			isa = PBXGroup;
+			children = (
+				88B9FC361CB0E9530060EB71 /* NBActivityViewProtocol.h */,
+				88B9FC371CB0E9530060EB71 /* NBCircleActivityView.h */,
+				88B9FC381CB0E9530060EB71 /* NBCircleActivityView.m */,
+				88B9FC391CB0E9530060EB71 /* NBWaveCurveLayer.h */,
+				88B9FC3A1CB0E9530060EB71 /* NBWaveCurveLayer.m */,
+				88B9FC3B1CB0E9530060EB71 /* NBWaveRefreshView.h */,
+				88B9FC3C1CB0E9530060EB71 /* NBWaveRefreshView.m */,
+			);
+			name = NBWaveRefreshPlugIn;
+			sourceTree = "<group>";
+		};
+		88D1084E1CACB0B50054FD02 /* NBWaveRefreshPlugInTest */ = {
+			isa = PBXGroup;
+			children = (
+				88FDFE221CAFDA7600B6E899 /* Spring.c */,
+				88036DDC1CAC1E3C0075359E /* 贝塞尔2.24研究笔记.png */,
+				88D1084F1CACCBD70054FD02 /* 需求分析 */,
+				88D1085A1CAE36460054FD02 /* NBActivityViewProtocolTest.h */,
+				88D108561CAD71260054FD02 /* NBCircleActivityViewTest.h */,
+				88D108541CAD711A0054FD02 /* NBCircleActivityViewTest.m */,
+				88D108511CAD12320054FD02 /* NBWaveCurveLayerTest.h */,
+				88D108521CAD12560054FD02 /* NBWaveCurveLayerTest.m */,
+				88D108571CAD72B80054FD02 /* NBWaveRefreshViewTest.h */,
+				88D108581CAD72CC0054FD02 /* NBWaveRefreshViewTest.m */,
+			);
+			name = NBWaveRefreshPlugInTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881B85F11CA50BD0006BC4DA /* MyWavePull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881B86221CA50BD0006BC4DA /* Build configuration list for PBXNativeTarget "MyWavePull" */;
+			buildPhases = (
+				881B85EE1CA50BD0006BC4DA /* Sources */,
+				881B85EF1CA50BD0006BC4DA /* Frameworks */,
+				881B85F01CA50BD0006BC4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWavePull;
+			productName = MyWavePull;
+			productReference = 881B85F21CA50BD0006BC4DA /* MyWavePull.app */;
+			productType = "com.apple.product-type.application";
+		};
+		881B860D1CA50BD0006BC4DA /* MyWavePullTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881B86251CA50BD0006BC4DA /* Build configuration list for PBXNativeTarget "MyWavePullTests" */;
+			buildPhases = (
+				881B860A1CA50BD0006BC4DA /* Sources */,
+				881B860B1CA50BD0006BC4DA /* Frameworks */,
+				881B860C1CA50BD0006BC4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881B86101CA50BD0006BC4DA /* PBXTargetDependency */,
+			);
+			name = MyWavePullTests;
+			productName = MyWavePullTests;
+			productReference = 881B860E1CA50BD0006BC4DA /* MyWavePullTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		881B86181CA50BD0006BC4DA /* MyWavePullUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881B86281CA50BD0006BC4DA /* Build configuration list for PBXNativeTarget "MyWavePullUITests" */;
+			buildPhases = (
+				881B86151CA50BD0006BC4DA /* Sources */,
+				881B86161CA50BD0006BC4DA /* Frameworks */,
+				881B86171CA50BD0006BC4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881B861B1CA50BD0006BC4DA /* PBXTargetDependency */,
+			);
+			name = MyWavePullUITests;
+			productName = MyWavePullUITests;
+			productReference = 881B86191CA50BD0006BC4DA /* MyWavePullUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881B85EA1CA50BD0006BC4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = " ZhengYiwei";
+				TargetAttributes = {
+					881B85F11CA50BD0006BC4DA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9D92K2HQMH;
+					};
+					881B860D1CA50BD0006BC4DA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9D92K2HQMH;
+						TestTargetID = 881B85F11CA50BD0006BC4DA;
+					};
+					881B86181CA50BD0006BC4DA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9D92K2HQMH;
+						TestTargetID = 881B85F11CA50BD0006BC4DA;
+					};
+				};
+			};
+			buildConfigurationList = 881B85ED1CA50BD0006BC4DA /* Build configuration list for PBXProject "MyWavePull" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881B85E91CA50BD0006BC4DA;
+			productRefGroup = 881B85F31CA50BD0006BC4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881B85F11CA50BD0006BC4DA /* MyWavePull */,
+				881B860D1CA50BD0006BC4DA /* MyWavePullTests */,
+				881B86181CA50BD0006BC4DA /* MyWavePullUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881B85F01CA50BD0006BC4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D108501CACCBD70054FD02 /* 需求分析 in Resources */,
+				88036DDD1CAC1E3C0075359E /* 贝塞尔2.24研究笔记.png in Resources */,
+				881B86081CA50BD0006BC4DA /* LaunchScreen.storyboard in Resources */,
+				881B86051CA50BD0006BC4DA /* Assets.xcassets in Resources */,
+				881B86031CA50BD0006BC4DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881B860C1CA50BD0006BC4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881B86171CA50BD0006BC4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881B85EE1CA50BD0006BC4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881B86001CA50BD0006BC4DA /* SecondViewController.m in Sources */,
+				881B85FA1CA50BD0006BC4DA /* AppDelegate.m in Sources */,
+				881B85FD1CA50BD0006BC4DA /* FirstViewController.m in Sources */,
+				88B9FC3D1CB0E9530060EB71 /* NBCircleActivityView.m in Sources */,
+				8881C1C71CA8244000B6C6E3 /* FourViewController.m in Sources */,
+				88D108531CAD12560054FD02 /* NBWaveCurveLayerTest.m in Sources */,
+				88FDFE231CAFDA7600B6E899 /* Spring.c in Sources */,
+				881B86321CA50D98006BC4DA /* ThirdNavigation.m in Sources */,
+				881B85F71CA50BD0006BC4DA /* main.m in Sources */,
+				88B9FC3E1CB0E9530060EB71 /* NBWaveCurveLayer.m in Sources */,
+				88D108591CAD72CC0054FD02 /* NBWaveRefreshViewTest.m in Sources */,
+				88B9FC3F1CB0E9530060EB71 /* NBWaveRefreshView.m in Sources */,
+				881B86311CA50D98006BC4DA /* ThirdViewController.m in Sources */,
+				88927CF51CA5899C00058214 /* UIViewToolExtension.m in Sources */,
+				8881C1C61CA8244000B6C6E3 /* FourNavigation.m in Sources */,
+				88D108551CAD711A0054FD02 /* NBCircleActivityViewTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881B860A1CA50BD0006BC4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881B86131CA50BD0006BC4DA /* MyWavePullTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881B86151CA50BD0006BC4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881B861E1CA50BD0006BC4DA /* MyWavePullUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881B86101CA50BD0006BC4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881B85F11CA50BD0006BC4DA /* MyWavePull */;
+			targetProxy = 881B860F1CA50BD0006BC4DA /* PBXContainerItemProxy */;
+		};
+		881B861B1CA50BD0006BC4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881B85F11CA50BD0006BC4DA /* MyWavePull */;
+			targetProxy = 881B861A1CA50BD0006BC4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		881B86011CA50BD0006BC4DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881B86021CA50BD0006BC4DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881B86061CA50BD0006BC4DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881B86071CA50BD0006BC4DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881B86201CA50BD0006BC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		881B86211CA50BD0006BC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881B86231CA50BD0006BC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyWavePull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davie.MyWavePull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		881B86241CA50BD0006BC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyWavePull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davie.MyWavePull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		881B86261CA50BD0006BC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWavePullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davie.MyWavePullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWavePull.app/MyWavePull";
+			};
+			name = Debug;
+		};
+		881B86271CA50BD0006BC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWavePullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davie.MyWavePullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWavePull.app/MyWavePull";
+			};
+			name = Release;
+		};
+		881B86291CA50BD0006BC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWavePullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davie.MyWavePullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWavePull;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		881B862A1CA50BD0006BC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWavePullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davie.MyWavePullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWavePull;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881B85ED1CA50BD0006BC4DA /* Build configuration list for PBXProject "MyWavePull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881B86201CA50BD0006BC4DA /* Debug */,
+				881B86211CA50BD0006BC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881B86221CA50BD0006BC4DA /* Build configuration list for PBXNativeTarget "MyWavePull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881B86231CA50BD0006BC4DA /* Debug */,
+				881B86241CA50BD0006BC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881B86251CA50BD0006BC4DA /* Build configuration list for PBXNativeTarget "MyWavePullTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881B86261CA50BD0006BC4DA /* Debug */,
+				881B86271CA50BD0006BC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881B86281CA50BD0006BC4DA /* Build configuration list for PBXNativeTarget "MyWavePullUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881B86291CA50BD0006BC4DA /* Debug */,
+				881B862A1CA50BD0006BC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 881B85EA1CA50BD0006BC4DA /* Project object */;
+}

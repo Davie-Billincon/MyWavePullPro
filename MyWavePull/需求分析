@@ -1,0 +1,73 @@
+1. 为scrollView写继承类，使得使用者通过一个设定方法：给予 activityView对象，开始loaiding的回调函数对象，父scrollView。就可以使用该下拉插件
+2. 设定方法需要在运行结束后，使scrollView尽可能的持有更多的数据，而不是下拉的时候再alloc，加快动画运行速度
+3. 给予使用者一个停止loading的方法，让其在 开始loaiding的回调函数 使用，触发动画结束
+
+4. view展示的位置和高度为： 上边：（拉扯点.x , 拉扯点.y）  —>   下边（拉扯点.x , content.offset.y）
+
+
+
+
+5. 注意 父scrollView 几个关键值的变化：
+    而且若是你先向scrollView添加refreshView，然后向view添加scrollView，其content.offset.y和contentInset.y会被系统性的更改。
+    有时初始化完毕后，又人为设定了新offset等
+5. 关于view依赖 父scrollView 几个数值的初始化方案
+    init处并没有太多的初始化，在确定视图显示到用户后，动态的初始化需要的参数
+    refreshView的init方法里添加observe，监控contentInset.y变化，只有处于boundce时，初始化originInset才无效
+
+
+6. 注意：一般在回调方法中，获取完信息后，会通过tableView.reloadView来刷新cell
+    若你在reloadView后再stopRefreshView，你在tableView中的子view：refreshView会被强制删除，不能执行动画
+6. 解决方案：
+    若你通过方法初始化了refreshView到scrollView中，那么就应该一直存在于子View中，除非你通过remove方法解除refreshView
+    覆盖loadView方法，检测持有的refreshView不为空时，强制添加到子view中
+    由于reload有时需要过程，而refresh对象中的动画有时依旧进行，所以刷新后可能会出现帧间隔
+
+7. 注意：controller.loadView时，原scrollView对象被释放，但报错却是 “一个UITableView在被监听时delloc”
+    scrollView的extension的remove方法中有：observe = false 、removeFromSuperView 等方法，但该方法并没有添加到scrollView的delloc中
+    并且你是通过关联持有该对象的，removeFromSuperView还是不能让refreshView释放，还需要手动置为nil
+7. 解决方案：
+    将observe的释放，放在refreshView本身
+
+
+6. scroll的触屏会激发动画：
+    静态时的：触屏操作（开始滑动 ，下拉，上滑，抬离屏幕）
+    未达到触发loading时后的回弹时：触屏操作……
+    达到触发，发生弹簧动画时的：触屏操作…… ，这时需要触屏操作完全无效化
+    发生动画后，loading时的：触屏操作…… 
+    发生动画完毕后的回收动作：触屏操作……
+7. 控制原则
+    KVO监听content.offset.y来设定state和执行动画
+    严格按照state来执行对应的动画：需要触屏操作完全无效化的
+
+
+
+8. loadingView要求
+    一个下拉动画方法：传入 触发loading的高度的 占比，让该方法自己判断该怎样运动动画
+    一个执行loading动画的方法：进入loding后，调用这个方法
+    一个结束动画的方法
+
+9.curveLayer类的要求
+    对外提供layerheight与locaitonX的设定方法接口，该设定触发layer的重绘
+    可以设定layer曲线上部的颜色，下部是透明的
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
